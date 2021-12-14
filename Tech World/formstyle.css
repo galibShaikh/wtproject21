@@ -1,0 +1,32 @@
+body {
+    padding: 10px 50px;
+    background-color: rgb(145, 225, 228);
+}
+
+.formstyle {
+    font-size: 20px;
+
+}
+
+.formstyle input {
+    width: 40%;
+    padding: 12px 20px;
+    border: 1px solid rgb(0, 202, 44);
+    margin: 8px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.formerror {
+    color: rgb(199, 19, 94);
+}
+.button{
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: 22px 20px;
+}
+.Form-pos{
+margin-left: 100px;
+}

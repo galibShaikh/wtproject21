@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="formstyle.css">
+
+    <title>Java Script Validation</title>
+</head>
+
+<body>
+    <div class="Form-pos">
+
+        <h1>Enter basic information </h1>
+        <form action="congratulation.html" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="formstyle" id="name">
+                Name:<input type="text" name="fname" required> <b><span class="formerror"> </span></b>
+            </div>
+            <div class="formstyle" id="phone">
+                Phone:<input type="phone" name="fphone" required> <span class="formerror"><b></b></span>
+            </div>
+            <div class="formstyle" id="email">
+                Email:<input type="email" name="femail" required> <span class="formerror"><b></b></span>
+
+               
+                <div class="formstyle" id="address">
+               Address:<input type="text" name="faddress" required> <b><span class="formerror"> </span></b>
+                </div>
+                <input class="button" type="submit">
+
+
+
+
+        </form>
+    </div>
+    <script src="formvalidation.js"></script>
+
+
+</body>
+
+
+</html>
